@@ -6,7 +6,7 @@
     "features": {
         "ghcr.io/devcontainers/features/azure-cli:1": {}
     },
-    "forwardPorts": [1433, 10000, 10001, 10002],
+    "forwardPorts": [1433, 10000, 10001, 10002, 5219, 7121],
     "postCreateCommand": "dotnet restore",
     "customizations": {
         "vscode": {
