@@ -26,9 +26,6 @@
         @foreach (var item in Model.Pets)
         {
             <tr>
-                <td><img class="img-thumbnail" alt="Photo"
-                    src="@item.PhotoUrl?.Replace("photos","thumbnails")"
-                    /></td>
                 <td>@item.Name</td>
                 <td>@item.Breed.Name</td>
                 <td>@item.Breed.Species.Name</td>
